@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Victoria Ferreira</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">▶ DVLP<span style="color:var(--purple-main)">R</span></div>
+        <a href="#projects">Contato</a>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>Front‑End <span>Developer</span></h1>
+            <p>
+                Desenvolvedora focada em criar interfaces modernas, funcionais e visualmente marcantes.
+                Transformo ideias em experiências digitais claras e eficientes.
+            </p>
+            <a href="#projects" class="cta">Ver projetos</a>
+        </div>
+
+        <div class="hero-visual">
+            <div class="screen main"></div>
+            <div class="screen left"></div>
+            <div class="screen right"></div>
+        </div>
+    </section>
+
+    <section id="technologies">
+        <h2>Minhas <span>Tecnologias</span></h2>
+        <p style="color:var(--text-muted); max-width: 700px; margin-bottom: 2rem;">
+            Principais linguagens, frameworks e bancos de dados utilizados no desenvolvimento de software.
+        </p>
+        <div class="tech-stack">
+            <div class="tech-stack-tag">HTML5 & CSS3</div>
+            <div class="tech-stack-tag">JavaScript</div>
+            <div class="tech-stack-tag">PHP</div>
+            <div class="tech-stack-tag">Java</div>
+            <div class="tech-stack-tag">MySQL</div>
+            <div class="tech-stack-tag">Git & GitHub</div>
+            <div class="tech-stack-tag">IDE Eclipse</div>
+            <div class="tech-stack-tag">VS Code</div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projetos <span>Selecionados</span></h2>
+        <div class="projects">
+
+            <div class="project-card" data-repo="victoriafe-sa/Rainha_do_Ouro">
+                <h3>Rainha do Ouro</h3>
+                <p>Site dinâmico em PHP com regras de negócio bem definidas.</p>
+                <a href="https://github.com/victoriafe-sa/Rainha_do_Ouro" target="_blank">GitHub →</a>
+            </div>
+
+            <div class="project-card" data-repo="victoriafe-sa/MedControl">
+                <h3>MedControl</h3>
+                <p>Sistema de controle e reserva de medicamentos.</p>
+                <a href="https://github.com/victoriafe-sa/MedControl" target="_blank">GitHub →</a>
+            </div>
+
+            <div class="project-card" data-repo="victoriafe-sa/makeup_store">
+                <h3>Makeup Store</h3>
+                <p>Loja virtual focada em layout e experiência do usuário.</p>
+                <a href="https://github.com/victoriafe-sa/makeup_store" target="_blank">GitHub →</a>
+            </div>
+
+            <div class="project-card" data-repo="victoriafe-sa/Guia-da-saude">
+                <h3>Guia da Saúde</h3>
+                <p>Aplicação informativa com foco em clareza e acessibilidade.</p>
+                <a href="https://github.com/victoriafe-sa/Guia-da-saude" target="_blank">GitHub →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato-form">
+        <h2>Entre em <span>Contato</span></h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Seu nome" required />
+            <input type="email" placeholder="Seu e-mail" required />
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2025 • Victoria Ferreira
+    </footer>
+
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <h3 id="modalTitle"></h3>
+            <p id="modalDescription"></p>
+            <a id="modalLink" target="_blank">Ver no GitHub →</a>
+        </div>
+    </div>iv>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
